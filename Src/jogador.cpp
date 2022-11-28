@@ -5,7 +5,7 @@
 using namespace std;
 
 Jogador::Jogador(string nome, int buyin) {
-	_nomeJogador = nome;
+	_nomeJogador = nome;	
 	dinheiro = buyin;
 }
 bool Jogador::adicionaCarta (Carta carta){
